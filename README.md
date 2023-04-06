@@ -23,13 +23,13 @@ Link do Protótipo:
 
 ---
 <br>
-_Foi ser incrível caminharmos juntas!_
+_Foi um processo de aprendizagem maravilhodo!_
 <br>
 
 ### Vamos nos conectar!
 
-- [instagram](https://www.instagram.com/simara_conceicao)
-- [linkedin](https://www.linkedin.com/in/simaraconceicao)
+- [instagram](https://instagram.com/carolayneuriel?igshid=ZDdkNTZiNTM=)
+- [linkedin](https://www.linkedin.com/in/carolayne-uriel-3509a1264)
 - [github](https://github.com/CarolayneUriel)
 
 <br>
