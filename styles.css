@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#menu{
+    background-color: #BE89CB;
+}
+#menu ul{
+    display: flex;
+    padding: 30px;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 150px;
+}
+#menu ul li{
+    list-style: none;
+}
+#menu ul li a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.foto{
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+    margin: auto;
+    display: block;
+    
+}
+#perfil{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #d5e1e4;
+}
+#perfil h1{
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    color: #FF4DBC;
+    
+}
+#perfil h3{
+    margin-top: 10px;
+    color: #7c7d7e;
+}
+#perfil p{
+    padding: 30px;
+    margin: auto;
+    width: 490px;
+    height: 154px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+}
+#formacao{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: #c7c5c5;
+}
+#formacao h2{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color:#FF4DBC ;
+}
+#formacao ul{
+    margin: auto;
+    width: 490px;
+    height: 154px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+
+}
+#portifolio{
+   background-color:  #d5e1e4;
+   display: block;
+   justify-content: center;
+   text-align: center;
+}
+#portifolio h2{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FF4DBC;
+}
+#portifolio p{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    flex: none;
+    width: 405px;
+    height: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+#portifolio a{
+    margin-top: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 12px;
+    text-decoration: none;
+}
+#contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background: #BE89CB
+}
+#contato h2{
+    padding: 20px;
+    margin: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #e435a1;
+}
+
+#contato a{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logo{
+    margin: auto;
+    display: block;
+    width: 20px;
+    height: auto;
+}
