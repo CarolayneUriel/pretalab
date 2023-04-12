@@ -5,7 +5,7 @@
 ## Sobre o projeto
 Link do projeto no ar:
 
-- [link do projeto final no netlify]()
+- [link do projeto final no netlify](https://carolayne-uriel-html-css.netlify.app/)
 
 O projeto final é um portfólio feito em HTML, CSS e hospedado no netlify.
 
