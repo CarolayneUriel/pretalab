@@ -35,7 +35,8 @@
     justify-content: center;
     padding: 20px;
     text-align: center;
-    background-color: #d5e1e4;
+    background-color: #EDEAEA;
+    ;
 }
 #perfil h1{
     margin-top: 10px;
@@ -49,7 +50,7 @@
 }
 #perfil h3{
     margin-top: 10px;
-    color: #7c7d7e;
+    color: #7e7b7b;
 }
 #perfil p{
     padding: 30px;
@@ -72,14 +73,11 @@
 }
 #formacao h2{
     padding: 20px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    display: flex;
+    padding-left: 70px;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 33px;
     color:#FF4DBC ;
 }
 #formacao ul{
@@ -91,26 +89,27 @@
     font-weight: 400;
     font-size: 16px;
     color: #000000;
+    list-style: none;
 
 }
 #portifolio{
-   background-color:  #d5e1e4;
+   background-color: #EDEAEA;
+   ;
    display: block;
    justify-content: center;
    text-align: center;
+   padding-bottom: 10px;
 }
 #portifolio h2{
     padding: 20px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    padding-left: 70px;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 33px;
-    color: #FF4DBC;
+    color:#FF4DBC ;
 }
-#portifolio p{
+    #portifolio p{
     padding: 10px;
     margin: auto;
     text-align: center;
@@ -141,12 +140,12 @@
 }
 #contato h2{
     padding: 20px;
-    margin: auto;
+    display: flex;
+    padding-left: 70px;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    color: #e435a1;
+    color:#e244a5;
 }
 
 #contato a{
@@ -164,4 +163,39 @@
     display: block;
     width: 20px;
     height: auto;
+}
+
+@media only screen and (max-width: 480px){
+    #perfil p {
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .foto{
+        width: 90%;
+    }
+
+    #menu ul{
+        gap: 10px;
+        justify-content: center;
+    }
+    #formacao ul{
+        width: 100%;
+        list-style: none;
+    }
+    #portifolio a{
+        padding-bottom: 20px;
+    }
+    #formacao h2{
+        padding-left: 0;
+        justify-content: center;
+    }
+    #portifolio h2{
+        padding-left: 0;
+        justify-content: center;
+    }
+    #contato h2{
+        padding-left: 0;
+        justify-content: center; 
+    }
 }
